@@ -3,11 +3,11 @@
 }
 
 :root {
-  --main-red-colod: #e06262;
+  --main-red-color: #e06262;
 }
 
 .main-red-color {
-  color: var(--main-red-colod);
+  color: var(--main-red-color);
 }
 
 html {
@@ -32,7 +32,7 @@ html {
 
 .container {
   width: 600px;
-  height: 600px;
+  height: 800px;
   background-color: #f2eecb;
   border-radius: 4px;
   padding: 32px;
@@ -61,7 +61,39 @@ html {
 .header-btn {
   font-size: 1.8rem;
   font-family: "Bungee", sans-serif;
-  padding: 24px;
+  padding: 16px;
+  background: unset;
+  border: unset;
+  outline: unset;
+  cursor: pointer;
+}
+
+.add {
+  padding: 16px;
+}
+
+.add-form {
+  display: flex;
+  align-items: flex-start;
+}
+
+.add-input {
+  border: unset;
+  padding: 0 64px;
+  background: unset;
+  flex: 1;
+  border-bottom: 1px solid var(--main-red-color);
+  outline: unset;
+  font-family: "Homemade Apple", sans-serif;
+  text-transform: lowercase;
+}
+
+.add-btn {
+  font-size: 1.8rem;
+  font-family: "Bungee", sans-serif;
+  padding: 16px;
+  padding-right: unset;
+  cursor: pointer;
   background: unset;
   border: unset;
   outline: unset;
